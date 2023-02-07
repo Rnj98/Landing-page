@@ -1,0 +1,166 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 50px;
+}
+
+.crumb {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+#home, #portfolio, #contact, #socials {
+  text-align: center;
+}
+/* ---------------------------------Nav Bar-------------------------------- */
+.navBar {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navBar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navBar li {
+  margin: 0 10px;
+}
+
+.navBar a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  text-shadow: 1px 1px 0px rgba(255,255,255,0.2);
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .navBar a:hover {
+  color: white;
+  text-shadow: 1px 1px 20px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+  }
+
+  
+/* --------------------------------- Home ------------------------------------- */
+.homeBody {
+  background-color: #0a9396;
+}
+#home img {
+  width: 20%;
+  height: 20%;
+}
+
+/* ------------------------------------------Portfolio ------------------------------------ */
+.portfolioBody {
+  background-color: #d7c58f;
+}
+
+#portHead {
+  display: flex;
+  justify-content: center;
+}
+
+#portfolio .photo-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#portfolio .photo-flex img {
+  width: 25%;
+  height: 550px;
+  margin: 1%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+#portfolio .photo-container {
+  display: flex;
+  align-items: center;
+  margin: 1%;
+  width: 25%;
+}
+
+#portfolio .photo-container img {
+  height: 550px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 70%;
+}
+
+#portfolio .photo-container form {
+  width: 30%;
+}
+
+/* ---------------------------------- Contact ----------------------------------------- */
+.contactBody {
+  background-color: #94d2bd;
+  color: rgb(0, 0, 0);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#suggestionBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  float: left;
+}
+
+input {
+  margin: 10px 0;
+  width: 45%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#addSession {
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.session-card {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #71ab98;
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(71, 71, 71);
+  clear: both;
+}
+
+/* ------------------------------------- Socials ---------------------------------------- */
+.socialsBody {
+  background-color: #bd7b01;
+}
+#socials .content a img {
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+h1 {
+  font-size: 40px;
+}
+/* -------------------------------------- */
